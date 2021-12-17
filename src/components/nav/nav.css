@@ -1,0 +1,40 @@
+.nav-item{
+    margin: 0 10px 0 10px;
+    font-family:"Galano Grotesque Semi Bold", sans-serif;
+    color:#000000;
+    font-size:18px;
+}
+
+.nav-pos{
+    position: absolute!important;
+    top:0;
+    left:0;
+    width:100%!important;
+    z-index:50;
+}
+@media only screen and (min-width:768px){
+    .nav-item{
+        margin: 0 5px 0 5px;  
+        font-size:12px;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .nav-item{
+        margin: 0 5px 0 5px;  
+        font-size:12px;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    .nav-item{
+        margin: 0 10px 0 10px;          
+        font-size:16px;
+    }
+}
+
+@media only screen and (min-width:1400px){
+    .nav-item{
+        font-size:18px;
+    }
+}
