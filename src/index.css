@@ -38,6 +38,23 @@
 
 }
 
+/* FONT CLASSES */
+
+.bold{
+  font-family: "Galano Grotesque Semi Bold";
+}
+
+.medium{
+  font-family: "Galano Grotesque Medium";
+}
+
+.light{
+  font-family: "Galano Grotesque Light";
+}
+
+
+/* BASE ELEMENT STYLING */
+
 h1{
   font-family: "Galano Grotesque Semi Bold";
 }
@@ -71,6 +88,8 @@ button{
   border-radius:8px!important;
 }
 
+/* MISCELLENOUS COLOR AND LAYOUT STYLING */
+
 .blue{
   color:var(--blue);
 }
@@ -84,3 +103,5 @@ button{
   display:block;
   text-align:center;
 }
+
+
