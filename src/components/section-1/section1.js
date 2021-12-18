@@ -8,7 +8,7 @@ function Section1() {
             <div className="section-1-content-container">
                 <Container>
                     <Row>
-                        <Col>
+                        <Col xs={12} md={6}>
                             <h1 className="section-1-header blue">Home</h1>
                             <h1 className="section-1-header">EV Charger</h1>
                             <br />

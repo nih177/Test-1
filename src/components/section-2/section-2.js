@@ -11,7 +11,7 @@ function Section2() {
             <br />
             <Container>
                 <div className="section-2-card-container">
-                    <Card style={{ width: '18rem' ,padding:'5px', borderRadius:'8px',height:'430px' }}>
+                    <Card bsPrefix="section-2-card" style={{  }}>
                         <Card.Img variant="top" src="/images/power.png" />
                         <Card.Body>
                             <Card.Title bsPrefix="align-center">EV Charging</Card.Title>
@@ -26,7 +26,7 @@ payment options such as using Credit/Debit card,
                             <Button variant="primary">Read more</Button>
                         </Card.Body>
                     </Card>
-                    <Card style={{ width: '18rem',padding:'5px', borderRadius:'8px',height:'430px'  }}>
+                    <Card bsPrefix="section-2-card" style={{   }}>
                         <Card.Img variant="top" src="/images/power.png" />
                         <Card.Body>
                             <Card.Title  bsPrefix="align-center">CMS Solution</Card.Title>
@@ -41,7 +41,7 @@ authentication is possible
                             <Button variant="primary">Read more</Button>
                         </Card.Body>
                     </Card>
-                    <Card style={{ width: '18rem',padding:'5px', borderRadius:'8px', height:'430px'   }}>
+                    <Card bsPrefix="section-2-card" style={{   }}>
                         <Card.Img variant="top" src="/images/power.png" />
                         <Card.Body>
                             <Card.Title  bsPrefix="align-center">IoT (Agri & Industrial)</Card.Title>

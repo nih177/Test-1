@@ -11,7 +11,7 @@ function Section3() {
             <br />
             <Container>
                 <Row>
-                    <Col>
+                    <Col xs={12} md={6}>
                         <h6>Axonify Tech Systems is engaged in design & manufacturing of smart/connected
 products, providing solutions in the areas of EV Charging and IoT
 </h6>  <br />
@@ -22,7 +22,7 @@ devices and collaborate with external systems.</h6>
                         <br />
                         <button>Read More</button>
                     </Col>
-                    <Col></Col>
+                    <Col xs={12} md={6}></Col>
                 </Row>
             </Container>
 
